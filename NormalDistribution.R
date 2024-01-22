@@ -1,0 +1,6 @@
+> set.seed(7)
+> rnorm_100 <- rnorm(100)
+> plot(rnorm_100, las = 1)
+> plot(sort(rnorm_100))
+> hist(rnorm_100, las = 1, breaks = 10)
+> hist(x = rnorm_100, las = 1, breaks = 10)
